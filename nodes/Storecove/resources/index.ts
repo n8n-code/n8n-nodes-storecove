@@ -1,0 +1,10 @@
+export { invoiceSubmissionsDescription } from './invoice-submissions';
+export { documentSubmissionsDescription } from './document-submissions';
+export { legalEntitiesDescription } from './legal-entities';
+export { peppolIdentifiersDescription } from './peppol-identifiers';
+export { administrationsDescription } from './administrations';
+export { receivedDocumentsDescription } from './received-documents';
+export { additionalTaxIdentifiersDescription } from './additional-tax-identifiers';
+export { purchaseInvoicesDescription } from './purchase-invoices';
+export { webhookInstancesDescription } from './webhook-instances';
+export { discoveryDescription } from './discovery';
