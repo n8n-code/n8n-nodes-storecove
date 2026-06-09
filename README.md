@@ -55,16 +55,16 @@ That's it. No configuration files. No code. It just works.
 
 | Resource | Operations |
 |----------|------------|
-| Invoice Submissions | POST Submit a new invoice, POST DEPRECATED. Preflight an invoice recipient, GET DEPRECATED. Get InvoiceSubmission Evidence |
-| Document Submissions | POST Submit a new document., GET Get DocumentSubmission Evidence |
-| Legal Entities | POST Create a new LegalEntity, DELETE Delete LegalEntity, GET Get LegalEntity, PATCH Update LegalEntity |
-| Peppol Identifiers | POST Create a new PeppolIdentifier, DELETE Delete PeppolIdentifier |
-| Administrations | POST Create a new Administration, DELETE Delete Administration, GET Get Administration, PATCH Update Administration |
-| Received Documents | POST Receive a new Document, POST Create a new received document, GET Get a new ReceivedDocument |
-| Additional Tax Identifiers | POST Create a new AdditionalTaxIdentifier, DELETE Delete AdditionalTaxIdentifier, GET Get AdditionalTaxIdentifier, PATCH Update AdditionalTaxIdentifier |
-| Purchase Invoices | GET Get Purchase invoice data as JSON, GET Get Purchase invoice data in a selectable format, GET Get Purchase invoice data as JSON with a Base64-encoded UBL string in the specified version |
-| Webhook Instances | GET GET a WebhookInstance, DELETE DELETE a WebhookInstance |
-| Discovery | POST Discover Network Participant Existence, GET Discover Country Identifiers ** EXPERIMENTAL, POST Disover Network Participant |
+| Invoice Submissions | Post submit a new invoice, Post deprecated preflight an invoice recipient, Get deprecated get invoicesubmission evidence |
+| Document Submissions | Post submit a new document, Get documentsubmission evidence |
+| Legal Entities | Post create a new legalentity, Delete legalentity, Get legalentity, Patch update legalentity |
+| Peppol Identifiers | Post create a new peppolidentifier, Delete peppolidentifier |
+| Administrations | Post create a new administration, Delete administration, Get administration, Patch update administration |
+| Received Documents | Post receive a new document, Post create a new received document, Get a new receiveddocument |
+| Additional Tax Identifiers | Post create a new additionaltaxidentifier, Delete additionaltaxidentifier, Get additionaltaxidentifier, Patch update additionaltaxidentifier |
+| Purchase Invoices | Get purchase invoice data as json, Get purchase invoice data in a selectable format, Get purchase invoice data as json with a base64encoded ubl string in the specified version |
+| Webhook Instances | Get a webhookinstance, Delete a webhookinstance |
+| Discovery | Post discover network participant existence, Get discover country identifiers  experimental, Post disover network participant |
 
 ---
 
